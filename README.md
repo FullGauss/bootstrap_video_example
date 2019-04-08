@@ -1,1 +1,1 @@
-# bootstrap_video_example
+# bootstrap_project
