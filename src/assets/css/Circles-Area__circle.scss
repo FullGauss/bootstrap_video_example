@@ -1,0 +1,17 @@
+@mixin Circles-Area__circle ($circle-size, $circle-position-bottom, $circle-position-left){
+  position: relative;
+  width: $circle-size;
+  height: $circle-size;
+  border-radius: $circle-size / 2;
+  bottom: $circle-position-bottom;
+  left: $circle-position-left;
+  background-color:#00CED1;
+  border-top: 3px solid #00008B;
+  border-bottom: 3px solid #00008B;
+    
+    &:hover{
+        transition: 300ms;
+        background-color: #1E90FF;
+        transform: rotate(90deg);
+        }
+}

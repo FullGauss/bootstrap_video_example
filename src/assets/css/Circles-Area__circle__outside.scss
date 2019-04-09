@@ -1,0 +1,4 @@
+@import "Circles-Area__circle";
+.Circle-Area__circle__outside{
+  @include Circles-Area__circle(500px, 0em, 0em);
+  }

@@ -1,0 +1,4 @@
+@import "Circles-Area__circle";
+.Circle-Area__circle__inside{
+  @include Circles-Area__circle(200px, 6.5em, 1.5em);
+  }
