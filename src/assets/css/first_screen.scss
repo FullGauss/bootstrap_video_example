@@ -1,0 +1,17 @@
+@import "bootstrap";
+
+// @include media-breakpoint-up(lg) {  
+.first-screen{
+    height: 100vh;
+    background: url("../img/first_screen_background.jpg") no-repeat center center;
+    background-size: cover; 
+    display: block;
+    font-size: 1rem;
+}
+.name__area{
+    width: 100px;
+}
+.search__area{
+    width: 100px;
+}
+// }
